@@ -15,6 +15,14 @@
 		6A0DAE941FA0782100832041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0DAE931FA0782100832041 /* main.m */; };
 		6A0DAE9E1FA0782100832041 /* zoomDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0DAE9D1FA0782100832041 /* zoomDemoTests.m */; };
 		6A0DAEA91FA0782100832041 /* zoomDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A0DAEA81FA0782100832041 /* zoomDemoUITests.m */; };
+		6A0DAEB81FA0793A00832041 /* MobileRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0DAEB71FA0793A00832041 /* MobileRTC.framework */; };
+		6A0DAEBA1FA0794300832041 /* MobileRTCResources.bundle in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0DAEB91FA0794300832041 /* MobileRTCResources.bundle */; };
+		6A0DAEBC1FA0794C00832041 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0DAEBB1FA0794C00832041 /* libsqlite3.tbd */; };
+		6A0DAEBE1FA0795600832041 /* libstdc++.6.0.9.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0DAEBD1FA0795600832041 /* libstdc++.6.0.9.tbd */; };
+		6A0DAEC01FA0796600832041 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0DAEBF1FA0796600832041 /* libz.1.2.5.tbd */; };
+		6A0DAEC21FA0797000832041 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A0DAEC11FA0797000832041 /* VideoToolbox.framework */; };
+		6A0DAEC61FA07D2200832041 /* MobileRTCResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6A0DAEC51FA0798900832041 /* MobileRTCResources.bundle */; };
+		6A0DAED71FA090A300832041 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6A0DAED91FA090A300832041 /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +48,7 @@
 		6A0DAE851FA0782100832041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6A0DAE871FA0782100832041 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		6A0DAE881FA0782100832041 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		6A0DAE8B1FA0782100832041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A0DAE8D1FA0782100832041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6A0DAE901FA0782100832041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A0DAE921FA0782100832041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A0DAE931FA0782100832041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6A0DAE991FA0782100832041 /* zoomDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zoomDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +57,22 @@
 		6A0DAEA41FA0782100832041 /* zoomDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zoomDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0DAEA81FA0782100832041 /* zoomDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zoomDemoUITests.m; sourceTree = "<group>"; };
 		6A0DAEAA1FA0782100832041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A0DAEB71FA0793A00832041 /* MobileRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileRTC.framework; path = zoomDemo/lib/MobileRTC.framework; sourceTree = "<group>"; };
+		6A0DAEB91FA0794300832041 /* MobileRTCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = MobileRTCResources.bundle; path = zoomDemo/lib/MobileRTCResources.bundle; sourceTree = "<group>"; };
+		6A0DAEBB1FA0794C00832041 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		6A0DAEBD1FA0795600832041 /* libstdc++.6.0.9.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.0.9.tbd"; path = "usr/lib/libstdc++.6.0.9.tbd"; sourceTree = SDKROOT; };
+		6A0DAEBF1FA0796600832041 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		6A0DAEC11FA0797000832041 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		6A0DAEC41FA0798900832041 /* MobileRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileRTC.framework; sourceTree = "<group>"; };
+		6A0DAEC51FA0798900832041 /* MobileRTCResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MobileRTCResources.bundle; sourceTree = "<group>"; };
+		6A0DAECB1FA08CE400832041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		6A0DAECD1FA08CE400832041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		6A0DAED01FA08D1400832041 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = InfoPlist.strings; sourceTree = "<group>"; };
+		6A0DAED21FA08D1400832041 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = Localizable.strings; sourceTree = "<group>"; };
+		6A0DAED31FA08DAC00832041 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A0DAED41FA08DAC00832041 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A0DAED81FA090A300832041 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		6A0DAEDA1FA090C300832041 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0DAEC21FA0797000832041 /* VideoToolbox.framework in Frameworks */,
+				6A0DAEC01FA0796600832041 /* libz.1.2.5.tbd in Frameworks */,
+				6A0DAEBE1FA0795600832041 /* libstdc++.6.0.9.tbd in Frameworks */,
+				6A0DAEBC1FA0794C00832041 /* libsqlite3.tbd in Frameworks */,
+				6A0DAEBA1FA0794300832041 /* MobileRTCResources.bundle in Frameworks */,
+				6A0DAEB81FA0793A00832041 /* MobileRTC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +113,7 @@
 				6A0DAE9C1FA0782100832041 /* zoomDemoTests */,
 				6A0DAEA71FA0782100832041 /* zoomDemoUITests */,
 				6A0DAE821FA0782100832041 /* Products */,
+				6A0DAEB61FA0793A00832041 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +130,7 @@
 		6A0DAE831FA0782100832041 /* zoomDemo */ = {
 			isa = PBXGroup;
 			children = (
+				6A0DAEC31FA0798900832041 /* lib */,
 				6A0DAE841FA0782100832041 /* AppDelegate.h */,
 				6A0DAE851FA0782100832041 /* AppDelegate.m */,
 				6A0DAE871FA0782100832041 /* ViewController.h */,
@@ -109,6 +139,7 @@
 				6A0DAE8D1FA0782100832041 /* Assets.xcassets */,
 				6A0DAE8F1FA0782100832041 /* LaunchScreen.storyboard */,
 				6A0DAE921FA0782100832041 /* Info.plist */,
+				6A0DAED91FA090A300832041 /* InfoPlist.strings */,
 				6A0DAE931FA0782100832041 /* main.m */,
 			);
 			path = zoomDemo;
@@ -130,6 +161,48 @@
 				6A0DAEAA1FA0782100832041 /* Info.plist */,
 			);
 			path = zoomDemoUITests;
+			sourceTree = "<group>";
+		};
+		6A0DAEB61FA0793A00832041 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A0DAEC11FA0797000832041 /* VideoToolbox.framework */,
+				6A0DAEBF1FA0796600832041 /* libz.1.2.5.tbd */,
+				6A0DAEBD1FA0795600832041 /* libstdc++.6.0.9.tbd */,
+				6A0DAEBB1FA0794C00832041 /* libsqlite3.tbd */,
+				6A0DAEB91FA0794300832041 /* MobileRTCResources.bundle */,
+				6A0DAEB71FA0793A00832041 /* MobileRTC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A0DAEC31FA0798900832041 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				6A0DAECE1FA08D1400832041 /* zh-Hans.lproj */,
+				6A0DAEC91FA08CE400832041 /* en.lproj */,
+				6A0DAEC41FA0798900832041 /* MobileRTC.framework */,
+				6A0DAEC51FA0798900832041 /* MobileRTCResources.bundle */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		6A0DAEC91FA08CE400832041 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6A0DAECA1FA08CE400832041 /* InfoPlist.strings */,
+				6A0DAECC1FA08CE400832041 /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		6A0DAECE1FA08D1400832041 /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6A0DAECF1FA08D1400832041 /* InfoPlist.strings */,
+				6A0DAED11FA08D1400832041 /* Localizable.strings */,
+			);
+			path = "zh-Hans.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +292,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
+				"zh-Hans",
 			);
 			mainGroup = 6A0DAE781FA0782100832041;
 			productRefGroup = 6A0DAE821FA0782100832041 /* Products */;
@@ -238,9 +311,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A0DAEC61FA07D2200832041 /* MobileRTCResources.bundle in Resources */,
 				6A0DAE911FA0782100832041 /* LaunchScreen.storyboard in Resources */,
 				6A0DAE8E1FA0782100832041 /* Assets.xcassets in Resources */,
 				6A0DAE8C1FA0782100832041 /* Main.storyboard in Resources */,
+				6A0DAED71FA090A300832041 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,7 +381,7 @@
 		6A0DAE8A1FA0782100832041 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6A0DAE8B1FA0782100832041 /* Base */,
+				6A0DAED31FA08DAC00832041 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -314,9 +389,50 @@
 		6A0DAE8F1FA0782100832041 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6A0DAE901FA0782100832041 /* Base */,
+				6A0DAED41FA08DAC00832041 /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6A0DAECA1FA08CE400832041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0DAECB1FA08CE400832041 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A0DAECC1FA08CE400832041 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0DAECD1FA08CE400832041 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6A0DAECF1FA08D1400832041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0DAED01FA08D1400832041 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6A0DAED11FA08D1400832041 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0DAED21FA08D1400832041 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6A0DAED91FA090A300832041 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A0DAED81FA090A300832041 /* zh-Hans */,
+				6A0DAEDA1FA090C300832041 /* en */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -432,8 +548,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39R6VHSDLS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zoomDemo/lib",
+				);
 				INFOPLIST_FILE = zoomDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = zzuli.cn.zoomDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -446,8 +569,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 39R6VHSDLS;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/zoomDemo/lib",
+				);
 				INFOPLIST_FILE = zoomDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = zzuli.cn.zoomDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
